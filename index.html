@@ -3,19 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title>Alix Grillo Portfolio</title>
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
         <!-- header 1 should be name -->
-        <h1>Alix Grillo</h1>
+        <div id="h1container">
+            <h1>Alix Grillo</h1>
+
+            <!-- insert navigation, about that goes to this page, portfolio to portfolio page and contact to contact page -->
+            <div class="topnav">
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a class="active" href="index.html">About</a>
+            </div>
+        </div>
         <!-- header 2 should be about me  -->
         <h2>About Me</h2>
-
-        <!-- insert navigation, about that goes to this page, portfolio to portfolio page and contact to contact page -->
-        <div class="topnav">
-            <a class="active" href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
 
         <!-- insert image -->
         <img src="assets/images/alix1.jpg" alt="Profile Picture">
@@ -31,7 +34,7 @@
             fermentum, risus id tristique mattis, quam erat finibus urna, et congue felis massa a ante. Donec id ante at purus laoreet
              imperdiet feugiat vel urna. Nulla bibendum aliquet neque, et vehicula dui auctor sit amet.
         </p>
-        <img src="assets/images/alix4.jpg" alt="Profile Picture">
+        <img id="bigPhoto" src="assets/images/alix4.jpg" alt="Engagement Photo">
         <p>
             Aenean faucibus mattis massa non sagittis. Donec iaculis scelerisque vulputate. Integer imperdiet facilisis risus, id 
             eleifend lorem ullamcorper et. Pellentesque eleifend nec magna quis faucibus. Duis pharetra felis ante, vel consequat 
