@@ -1,18 +1,26 @@
 /* the body should have a background image, set the font to Arial, and width to 960px (centered on page) */
 body{
-    background-image: url("../background/fresh_snow/fresh_snow.png");
+    background-image: url("../background/vintage-concrete/vintage-concrete.png");
     background-repeat:no-repeat;
     background-size:cover;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    width: 960px;
+    /* width: 960px; */
     margin: auto;
     overflow: auto;
 }
 /* the h1 container will space the nav bar and H1 and set background color*/
+#topBar{
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+}
 #h1container{
     /* margin: 0 0 20px 0; */
     /* float: left; */
+    width: 960px;
+    margin:auto;
     overflow: auto;
     background-color: #ffffff;
 }
@@ -21,6 +29,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: white;
+    font-size: 28px;
     width: 200px;
     padding: 20px;
     text-align: center;
@@ -34,11 +43,14 @@ h2{
     color: #4aaaa5;
     clear: both;
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: 2px;
     border-bottom-color: #cccccc;
     padding: 20px 0px;
 }
 /* sets images to 200px wide and floats them to the left */
+p{
+    line-height: 150%;
+}
 img{
     width:200px;
     float: left;
@@ -46,11 +58,12 @@ img{
 }
 /* the body container will have a background color to contrast it with the background image */
 .bodyContainer{
-    margin: 25px 0px 50px;
+    /* margin: 25px 0px 50px; */
     overflow: auto;
     padding: 0px 20px 20px;
     background-color: #ffffff;
-
+    width: 920px;
+    margin:25px auto 50px;
 }
 
 /* Add a white background color to the top navigation */
@@ -65,9 +78,10 @@ img{
     float: right;
     color: #666666;
     text-align: center;
-    padding: 24px 25px;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    margin: 10px;
   }
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -76,10 +90,10 @@ img{
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  /* .topnav a.active {
     background-color: #4aaaa5;
     color: white;
-  }
+  } */
   /* one photo looked like it should be larger */
 #bigPhoto{
     width: 400px;
