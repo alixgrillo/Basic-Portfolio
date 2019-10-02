@@ -44,7 +44,7 @@ h2{
     clear: both;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    border-bottom-color: #cccccc;
+    border-bottom-color: #dddddd;
     padding: 20px 0px;
 }
 /* sets images to 200px wide and floats them to the left */
@@ -95,7 +95,12 @@ img{
     color: white;
   } */
   /* one photo looked like it should be larger */
-#bigPhoto{
+blockquote{
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+}
+  #bigPhoto{
     width: 400px;
     float: right;
     margin: 0px 0px 0px 40px;
@@ -149,6 +154,10 @@ input[type=submit]:hover {
     position: absolute;
     top: 230px;
 }
+.portLinks:hover {
+    color: white ;
+    background-color: #205E5B ;
+  }
 /* styles the image within link */
 .portImg{
     z-index: 2;
