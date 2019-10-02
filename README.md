@@ -63,7 +63,7 @@ https://alixgrillo.github.io/Basic-Portfolio
 
 ## Support
 ------------------------------------------------
-Phone: 303-829-0672
-Website: https://alixgrillo.github.io/Basic-Portfolio/contact.html
-E-mail: alix.grillo2@gmail.com
+- Phone: 303-829-0672
+- Website: https://alixgrillo.github.io/Basic-Portfolio/contact.html
+- E-mail: alix.grillo2@gmail.com
 ------------------------------------------------
